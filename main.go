@@ -119,7 +119,7 @@ func (a *App) Show() {
 func (a *App) creatMainWin() {
 	window := gtk.NewWindow(gtk.WINDOW_TOPLEVEL)
 	window.SetPosition(gtk.WIN_POS_CENTER)
-	window.SetTitle("Ocrtra")
+	window.SetTitle("Screenshot")
 	window.SetSizeRequest(200, 30)
 	window.Connect("destroy", func(ctx *glib.CallbackContext) {
 		gtk.MainQuit()
