@@ -15,7 +15,7 @@ go get github.com/vova616/screenshot
 3.build it
 
 ``` bash
-git clone github.com/jinzhongmin/screenshot
+git clone https://github.com/jinzhongmin/screenshot
 cd screenshot
 go build
 ```
